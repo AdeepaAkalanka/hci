@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/57dcfaff64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        body {
+            background-image: url('abc.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="login-reg-panel">
+        <div class="login-info-box">
+            <h2>Have an account?</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+            <label id="label-register" for="log-reg-show">Login</label>
+            <input type="radio" name="active-log-panel" id="log-reg-show" checked="checked">
+        </div>
+
+        <div class="register-info-box">
+            <h2>Don't have an account?</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+            <label id="label-login" for="log-login-show">Register</label>
+            <input type="radio" name="active-log-panel" id="log-login-show">
+        </div>
+
+        <div class="white-panel">
+            <form autocomplete="off" id="formA">
+
+                <div class="login-show">
+                    <h2>LOGIN</h2>
+                    <input type="text" id="uname" placeholder="Enter Username" required>
+                    <input type="password" id="pwd" placeholder="Enter Password" required>
+                    <div>
+                        <button type="submit" class="btn btn-secondary">Login</button>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <a href="">Forgot password?</a>
+                </div>
+            </form>
+            <div class="register-show">
+                <h2>REGISTER</h2>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <div>
+                    <button onclick="document.location='index.html'" class="btn btn-secondary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src=https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.all.min.js></script>
+    <script src="./js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="./js/login.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        document.getElementById("formA").addEventListener("submit", (e) => {
+            e.preventDefault();
+            var userLogin = document.getElementById("uname");
+            var passLogin = document.getElementById("pwd");
+            if (userLogin.value == "ADMIN" && passLogin.value == "123") {
+                swal({
+                    title: 'Welcome',
+                    html: 'Access granted',
+                    type: 'success'
+                });
+                setTimeout(() => {
+                    loadPage();
+                }, 3000);
+            } else {
+                swal({
+                    title: 'Error',
+                    html: 'Access denied',
+                    type: 'error'
+                });
+            }
+            function loadPage() {
+                window.location.href = "./index.html";
+            }
+        });
+
+
+    </script>
+    <!--end javascript  -->
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.imgFilter {
+    filter: brightness(0.80);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FCF9F8;
+}
+
+.form-valid {
+    opacity: 0.5;
+}
+
+.form-control-label abbr {
+    text-decoration: none;
+    font-weight: normal;
+}
