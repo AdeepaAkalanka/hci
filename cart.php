@@ -24,30 +24,106 @@ $connection= $object->Connect();
 </head>
 
 <body onload="render()">
-    <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark text-white" style="background: #f5bd04">
-            <a class="text-white navbar-brand" href="#">
-                <i class="fab fa-pagelines animate flash"></i> Groserypal
+<header class="fixed-top">
+      <div class="row bg-white">
+        <div class="col-md-4 float-left">
+          <a href="mainpage.html"><img
+              src="https://www.grocerypal.lk/skin/frontend/alocavada/home04/images/logo-gpartner.png"
+              class=" ml-5 "></a>
+
+        </div>
+        <div class="col-md-4 ml-5 mt-4">
+          <form class="form-inline">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark  text-white" style="background: #f5bd04">
+
+        <!-- <a class="text-white navbar-brand" href="./mainpage.html">
+              <i class="fab fa-pagelines animate flash"></i> Groserypal
+          </a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabarCollapse"
+          aria-controls="navbarColapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto menu">
+            <li class="nav-item active">
+              <a class="nav-link fas fa-home" href="mainpage.html"></a>
+              <!-- <i class="fas fa-home"></i> -->
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Categories</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                My Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./dashboard.html">Account Dashboard</a>
+                <a class="dropdown-item" href="./form.html">Edit Account</a>
+                <a class="dropdown-item" href="./form2.html">Edit address</a>
+                <a class="dropdown-item" href="">My Orders</a>
+                <a class="dropdown-item" href="">My Product Reviews</a>
+                <a class="dropdown-item" href="">My Tags</a>
+                <a class="dropdown-item" href="">My Wishlist</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item active">#salad
+                      <a href="./index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Fruits</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#juice">Juices</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Salads</a>
+                  </li> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="">Delivery Grid</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Shopping Wasi</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Quick Shopping</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <a class="text-white nav-link" href="./cart.php">
+              <i class="text-success fas fa-shopping-cart"></i> Shopping Cart
+              <i style="color:rgb(0, 255, 13)" id="cart_n"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabarCollapse"
-                aria-controls="navbarColapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto menu">
-                    <li class="nav-item active">
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>                    
-                </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <a class="text-white nav-link" href="#">
-                        <i class="text-success fas fa-shopping-cart" ></i> Shopping Cart
-                        <i style="color:yellow" id="cart_n"></i>
-                    </a>
-                </form>      
-            </div>
-        </nav>
+            <a class="text-white nav-link" href="./login.html">
+              <i class="far fa-user"></i> Logout
+            </a>
+            <!-- <a style="cursor:pointer" class="nav-link text-white" data-toggle="modal"
+                      data-target="#ModalCenter">
+                      <i class="far fa-user"></i> Logout
+                  </a> -->
+          </form>
+        </div>
+
+      </nav>
+
     </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
     <div class="container mt-3">
         <main role="main">
             <div class="row">
