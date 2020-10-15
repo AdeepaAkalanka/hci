@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Css/Onecateditcss.css">
+ 
+  <title>Grocerypal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./src/bootstrap-input-spinner.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  
+</head>
+<body>
+<script>
+    $("input[type='number']").inputSpinner()
+</script>
+
+<header class="fixed-top">
+      <div class="row bg-white">
+        <div class="col-md-4 float-left">
+          <a href="mainpage.html"><img
+              src="https://www.grocerypal.lk/skin/frontend/alocavada/home04/images/logo-gpartner.png"
+              class=" ml-5 "></a>
+
+        </div>
+        <div class="col-md-4 ml-5 mt-4">
+          <form class="form-inline">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark  text-white" style="background: #f5bd04">
+
+        <!-- <a class="text-white navbar-brand" href="./mainpage.html">
+              <i class="fab fa-pagelines animate flash"></i> Groserypal
+          </a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabarCollapse"
+          aria-controls="navbarColapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto menu">
+            <li class="nav-item active">
+              <a class="nav-link fas fa-home" href="../mainpage.html"></a>
+              <!-- <i class="fas fa-home"></i> -->
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Categories</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                My Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../dashboard.html">Account Dashboard</a>
+                <a class="dropdown-item" href="../form.html">Edit Account</a>
+                <a class="dropdown-item" href="../form2.html">Edit address</a>
+                <a class="dropdown-item" href="Orderspage.html">My Orders</a>
+                <a class="dropdown-item" href="">My Product Reviews</a>
+                <a class="dropdown-item" href="">My Tags</a>
+                <a class="dropdown-item" href="Wishlist.html">My Wishlist</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item active">#salad
+                      <a href="./index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Fruits</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#juice">Juices</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Salads</a>
+                  </li> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="">Delivery Grid</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Shopping Wasi</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Quick Shopping</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <a class="text-white nav-link" href="./cart.php">
+              <i class="text-success fas fa-shopping-cart"></i> Shopping Cart
+              <i style="color:rgb(0, 255, 13)" id="cart_n"></i>
+            </a>
+            <a class="text-white nav-link" href="./login.html">
+              <i class="far fa-user"></i> Logout
+            </a>
+            <!-- <a style="cursor:pointer" class="nav-link text-white" data-toggle="modal"
+                      data-target="#ModalCenter">
+                      <i class="far fa-user"></i> Logout
+                  </a> -->
+          </form>
+        </div>
+
+      </nav>
+
+    </header>
+<br><br><br>
+<br><br><br>
+<!-- container -->
+<div class="container">
+  <center><h2>Edit Wish List</h2></center><br>
+  <!-- Raw one -->
+  <div class="row">
+    <!-- Coloumn one -->
+      <div class="col-sm-3" style="height: 400px">
+        <div class="container">
+    <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="2000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block mx-auto img-fluid" src="images/pepsi8.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="images/pepsi7.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="images/pepsi6.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+      </div>
+
+      <!-- Coloumn two -->
+
+      <div class="col-sm-4 borderimg1"><button type="button" data-toggle="modal" data-target="#myModal"><img class="card-img-overlay" src="images/pepsi1.jpg" style="width:100%"></button>
+
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <b><h4 class="modal-title">Blueberry Pepsi 250ml</h4></b>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body" style="height: 500px">
+              <center><img class="card-img-overlay" src="images/pepsi1.jpg" style="height:500px" "width: 400px"></center>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Coloumn three -->
+
+      <div class="col-sm-5">
+        <h3>Blueberry Pepsi 250ml - #039576</h3>
+        <h4>Rs 300.00</h4>
+        <br>
+        <input value="1" style="width: 60px" type="number" min="1" max="30"/><br><br>
+        <a href="#" class="btn btn-success" style="width: 200px">Add To Cart <i class="fa fa-cart-plus" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;
+        <a href="#" class="btn btn-primary" style="width: 200px">Buy Now</a><br><br>
+        <a class="btn btn-primary" id="myBtn" style="width: 200px">Edit <i class="fa fa-pencil" aria-hidden="true"></i></a>
+        <div class="toast">
+		    <div class="toast-header" style="font-size: 17px">
+		    	<br>
+		      <b>Edited Selected Category</b>
+		    </div>
+		</div>
+		<script>
+		$(document).ready(function(){
+		  $("#myBtn").click(function(){
+		    $('.toast').toast('show');
+		  });
+		});
+		</script>
+        
+      </div>
+  </div>
+<!-- Raw two -->
+  <br>
+  <div class="row">
+    <div class="col">
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">DESCRIPTION</button>
+        <div id="demo1" class="collapse">
+          <br>Blueberry Pepsi 250ml<br>Pepsi is a carbonated soft drink manufactured by PepsiCo. Pepsi is made with carbonated water, high fructose corn syrup, caramel color, sugar, phosphoric acid, caffeine, citric acid, and natural flavors.<br>
+        </div>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">ADDITIONAL INFORMATION</button>
+        <div id="demo2" class="collapse">
+          <br>
+          <table class="table table-dark table-striped">
+            <tbody>
+              <tr>
+                <td>Product Terms</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Specifications</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Warranty (Months)</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">REVIEWS</button>
+        <div id="demo3" class="collapse">
+          <br>
+          <form action="#" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="uname">Nickname:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter nickname" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+              <label for="uname">Summary of Your Review:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter summary" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+              <label for="uname">Review:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter user review" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" required> I am not a Robot.
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+          <br>
+        </div>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo4">PRODUCT TAGS</button>
+        <div id="demo4" class="collapse">
+          <br>
+          <form action="#" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="uname">Add Your Tags::</label>
+              <input type="text" class="form-control" id="uname" placeholder="Tag name" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <p style="font-size: 13px">*Use spaces to separate tags. Use single quotes (') for phrases.</p>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #333333;">
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left" style="color: #FFFFFF;" >
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-sm">
+      <!-- Content -->
+      <h6 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h6>
+      <p style="font-size: 13px;">LAUGFS Supermarkets (pvt) Ltd, 6th floor, No 101, Maya Avenue, Colombo 06, Sri Lanka<br>
+      <br><b>Phone : </b>011 5673 673 / 077 338 3381 <br>(Monday - Friday 10.00 - 17.00 Hours)
+      <br><b>Email : </b>info@grocerypal.lk
+      <br><b>Working : </b>8.30 - 18.00 Hours, everyday</p>
+      </div>
+      <!-- Grid column -->
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-sm">
+
+        <!-- Links -->
+        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">TOP SELLING</h6>
+        <hr style="background-color: #ffffff;">
+
+        <div class="row">
+          <div class="col-sm">
+            <img class="card-img-top" src="images/pepsi3.jpg">
+          </div>
+          <div class="col-sm">
+            <img class="card-img-top" src="images/pepsi2.jpg" >
+          </div>
+
+        </div>
+
+        <!-- <ul class="list-unstyled">
+          <li>
+            <a href="Onecatpage.html"><img class="card-img-top" src="images/pepsi1.jpg" style="width:40%">&nbsp;Lime Pepsi</a>
+          </li>
+        </ul> -->
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-sm">
+
+        <!-- Links -->
+        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">INFORMATION</h6>
+        <hr style="background-color: #ffffff;">
+
+        <p>My Account</p>
+          <p>Terms Of Use</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
+
+        <!-- <ul class="list-unstyled">
+          <li>
+            <a href="#!">My Account</a>
+          </li>
+          <li>
+            <a href="#!">Terms Of Use</a>
+          </li>
+          <li>
+            <a href="#!">About Us</a>
+          </li>
+          <li>
+            <a href="#!">Contact Us</a>
+          </li>
+        </ul> -->
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-sm">
+
+        <!-- Links -->
+        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">FOLLOW US</h6>
+        <hr style="background-color: #ffffff;">
+      
+
+
+        <ul class="list-unstyled">
+          <li>
+            <p style="font-size: 11px;">Get information on Events sales and offers.</p>
+          </li>
+          
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2" style="background: #f5bd04; color: #ffffff;">Send</span>
+        </div>
+      </div>
+      <br> 
+
+          <li>
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fab fa-facebook-f" style="color: #ffffff;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i class="fab fa-twitter" style="color: #ffffff;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                  <i class="fab fa-google-plus-g" style="color: #ffffff;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i class="fab fa-linkedin-in" style="color: #ffffff;"> </i>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+  <hr>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color: #ffffff; background-color: #000000;">© 2016 LAUGFS Supermarkets (pvt) Ltd. All Rights Reserved.
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+</body>
+</html>
