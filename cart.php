@@ -71,6 +71,7 @@
                 <a class="dropdown-item" href="">My Product Reviews</a>
                 <a class="dropdown-item" href="">My Tags</a>
                 <a class="dropdown-item" href="">My Wishlist</a>
+                <a class="dropdown-item" href="newsletter.html">Newsletter Subcriptions</a>
               </div>
             </li>
             <!-- <li class="nav-item active">#salad
@@ -148,151 +149,152 @@
 
     <!-- END MODAL -->
     <!-- <div class="container"> -->
+          <!-- FOOTER -->
          <!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #333333;">
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left" style="color: #FFFFFF;" >
-    <!-- Grid row -->
-    <div class="row">
-      <!-- Grid column -->
-      <div class="col-sm">
-      <!-- Content -->
-      <h6 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h6>
-      <p style="font-size: 13px;">LAUGFS Supermarkets (pvt) Ltd, 6th floor, No 101, Maya Avenue, Colombo 06, Sri Lanka<br>
-      <br><b>Phone : </b>011 5673 673 / 077 338 3381 <br>(Monday - Friday 10.00 - 17.00 Hours)
-      <br><b>Email : </b>info@grocerypal.lk
-      <br><b>Working : </b>8.30 - 18.00 Hours, everyday</p>
-      </div>
-      <!-- Grid column -->
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm">
-
-        <!-- Links -->
-        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">TOP SELLING</h6>
-        <hr style="background-color: #ffffff;">
-
-        <div class="row">
-          <div class="col-sm">
-            <img class="card-img-top" src="img/pepsi3.jpg">
-          </div>
-          <div class="col-sm">
-            <img class="card-img-top" src="img/pepsi2.jpg" >
-          </div>
-
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left" style="color: #FFFFFF;" >
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-sm">
+        <!-- Content -->
+        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h6>
+        <p style="font-size: 13px;">LAUGFS Supermarkets (pvt) Ltd, 6th floor, No 101, Maya Avenue, Colombo 06, Sri Lanka<br>
+        <br><b>Phone : </b>011 5673 673 / 077 338 3381 <br>(Monday - Friday 10.00 - 17.00 Hours)
+        <br><b>Email : </b>info@grocerypal.lk
+        <br><b>Working : </b>8.30 - 18.00 Hours, everyday</p>
         </div>
-
-        <!-- <ul class="list-unstyled">
-          <li>
-            <a href="Onecatpage.html"><img class="card-img-top" src="images/pepsi1.jpg" style="width:40%">&nbsp;Lime Pepsi</a>
-          </li>
-        </ul> -->
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm">
-
-        <!-- Links -->
-        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">INFORMATION</h6>
-        <hr style="background-color: #ffffff;">
-
-        <a class="text-white" href="./dashboard.html"><p>My Account</p></a>
-          <p>Terms Of Use</p>
-          <p>About Us</p>
-          <p>Contact Us</p>
-
-        <!-- <ul class="list-unstyled">
-          <li>
-            <a href="#!">My Account</a>
-          </li>
-          <li>
-            <a href="#!">Terms Of Use</a>
-          </li>
-          <li>
-            <a href="#!">About Us</a>
-          </li>
-          <li>
-            <a href="#!">Contact Us</a>
-          </li>
-        </ul> -->
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm">
-
-        <!-- Links -->
-        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">FOLLOW US</h6>
-        <hr style="background-color: #ffffff;">
-      
-
-
-        <ul class="list-unstyled">
-          <li>
-            <p style="font-size: 11px;">Get information on Events sales and offers.</p>
-          </li>
-          
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2" style="background: #f5bd04; color: #ffffff;">Send</span>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-sm">
+  
+          <!-- Links -->
+          <h6 class="font-weight-bold text-uppercase mt-3 mb-4">TOP SELLING</h6>
+          <hr style="background-color: #ffffff;">
+  
+          <div class="row">
+            <div class="col-sm">
+              <img class="card-img-top" src="img/pepsi3.jpg">
+            </div>
+            <div class="col-sm">
+              <img class="card-img-top" src="img/pepsi2.jpg" >
+            </div>
+  
+          </div>
+  
+          <!-- <ul class="list-unstyled">
+            <li>
+              <a href="Onecatpage.html"><img class="card-img-top" src="images/pepsi1.jpg" style="width:40%">&nbsp;Lime Pepsi</a>
+            </li>
+          </ul> -->
+  
         </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-sm">
+  
+          <!-- Links -->
+          <h6 class="font-weight-bold text-uppercase mt-3 mb-4">INFORMATION</h6>
+          <hr style="background-color: #ffffff;">
+  
+          <a class="text-white" href="./dashboard.html"><p>My Account</p></a>
+            <p>Terms Of Use</p>
+            <a class="text-white" href="Gayani/Aboutus.html"><p>About Us</p></a>
+            <a class="text-white" href="Gayani/Contactus.html"><p>Contact Us</p></a>
+  
+          <!-- <ul class="list-unstyled">
+            <li>
+              <a href="#!">My Account</a>
+            </li>
+            <li>
+              <a href="#!">Terms Of Use</a>
+            </li>
+            <li>
+              <a href="#!">About Us</a>
+            </li>
+            <li>
+              <a href="#!">Contact Us</a>
+            </li>
+          </ul> -->
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-sm">
+  
+          <!-- Links -->
+          <h6 class="font-weight-bold text-uppercase mt-3 mb-4">FOLLOW US</h6>
+          <hr style="background-color: #ffffff;">
+        
+  
+  
+          <ul class="list-unstyled">
+            <li>
+              <p style="font-size: 11px;">Get information on Events sales and offers.</p>
+            </li>
+            
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2" style="background: #f5bd04; color: #ffffff;">Send</span>
+          </div>
+        </div>
+        <br> 
+  
+            <li>
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook-f" style="color: #ffffff;"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-tw mx-1">
+                    <i class="fab fa-twitter" style="color: #ffffff;"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-gplus mx-1">
+                    <i class="fab fa-google-plus-g" style="color: #ffffff;"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-li mx-1">
+                    <i class="fab fa-linkedin-in" style="color: #ffffff;"> </i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+  
+  
+  
+        </div>
+        <!-- Grid column -->
+  
       </div>
-      <br> 
-
-          <li>
-            <ul class="list-unstyled list-inline text-center">
-              <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fab fa-facebook-f" style="color: #ffffff;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                  <i class="fab fa-twitter" style="color: #ffffff;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
-                  <i class="fab fa-google-plus-g" style="color: #ffffff;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
-                  <i class="fab fa-linkedin-in" style="color: #ffffff;"> </i>
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-
-
-
-      </div>
-      <!-- Grid column -->
-
+      <!-- Grid row -->
+  
     </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-  <hr>
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" style="color: #ffffff; background-color: #000000;">© 2016 LAUGFS Supermarkets (pvt) Ltd. All Rights Reserved.
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+    <!-- Footer Links -->
+    <hr>
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color: #ffffff; background-color: #000000;">© 2016 LAUGFS Supermarkets (pvt) Ltd. All Rights Reserved.
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
     <!-- </div> -->
     <!-- javascript -->
     <script
