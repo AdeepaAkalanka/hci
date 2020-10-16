@@ -1,0 +1,117 @@
+/* Quantity counter css start here */
+.basePrice {
+    font-size:25px;
+    padding:0px 0 20px 0px;
+    border:none;
+  }
+  .basePrice input {
+    font-size:25px;
+    border:none;
+  }
+  .quantityBlock div {
+    float:left;
+    margin:0 10px;
+  }
+  .quantity {
+    width:60px;
+  }
+ 
+  .quantityUp{
+      width: 50px;
+      background-color: #ffffff;
+      border:1px solid #ffcc00;
+  }
+  .quantityDown{
+    width: 50px;
+    background-color: #ffffff;
+    border:1px solid #ffcc00;
+  }
+  .addtocartButton:hover {
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  .cart {
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:20px;
+  }
+  .hide {
+    display:none;
+  }
+  .clear {
+    clear:both;
+  }
+
+
+
+  .basePrice2 {
+    font-size:25px;
+    padding:0px 0 20px 0px;
+    border:none;
+  }
+  .basePrice2 input {
+    font-size:25px;
+    border:none;
+  }
+  .quantityBlock2 div {
+    float:left;
+    margin:0 10px;
+  }
+  .quantity2 {
+    width:60px;
+  }
+ 
+  .quantityUp2{
+      width: 50px;
+      background-color: #ffffff;
+      border:1px solid #ffcc00;
+  }
+  .quantityDown2{
+    width: 50px;
+    background-color: #ffffff;
+    border:1px solid #ffcc00;
+  }
+  .addtocartButton2:hover {
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  .cart2 {
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:20px;
+  }
+  .hide2 {
+    display:none;
+  }
+  .clear2 {
+    clear:both;
+  }
+  /* Quantity counter css ends here */
+
+  
+  .button4 {border-radius: 12px;}
+
+  .card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  /* review star color */
+  .checked {
+    color: orange;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
