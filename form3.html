@@ -127,100 +127,109 @@
         <div class="card bg-light">
             <form class="card-body" novalidate="" action="" method="" id="bootstrapForm">
 
-                <div class="form-group">
-                    <label for="input1">First Name<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="text" class="form-control" name="i1" id="input1" required>
-                    <div class="valid-feedback">First name looks good</div>
-                    <div class="invalid-feedback">Please enter your first name. This field is required</div>
+              <div class="form-group">
+                <label for="input1">First Name<abbr class="text-danger" title="This is required">*</abbr></label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="Alex" required>
+                <div class="valid-feedback">First name looks good</div>
+                <div class="invalid-feedback">Please enter your first name. This field is required</div>
+              </div>
+      
+              <div class="form-group">
+                <label for="input1">Last Name<abbr class="text-danger" title="This is required">*</abbr></label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="Hunter" required>
+                <div class="valid-feedback">Last name looks good</div>
+                <div class="invalid-feedback">Please enter your last name. This field is required</div>
+              </div>
+      
+              <div class="form-group">
+                <label for="input1">Company</label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="Abc(Pvt)Ltd">
+                <!-- <div class="valid-feedback">Company looks good</div> -->
+                <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
+              </div>
+      
+              <!-- <div class="form-group">
+                          <label for="input1">TelePhone<abbr class="text-danger" title="This is required">*</abbr></label>
+                          <input type="tel" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                              class="form-control" name="i1" id="input1" required>
+                          <div class="valid-feedback">Telephone Number # looks good</div>
+                          <div class="invalid-feedback">Please enter a Telephone # like 123-456-7890. This field is required.
+                          </div>
+                      </div> -->
+      
+              <div class="form-group">
+                <label for="input1">Telephone<abbr class="text-danger" title="This is required">*</abbr></label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="eg :- 0777123456" required>
+                <div class="valid-feedback">Telephone Number looks good</div>
+                <div class="invalid-feedback">Please enter your Telephone Number. This field is required</div>
+              </div>
+      
+              <div class="form-group">
+                <label for="input1">Fax</label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="eg :- 123456789">
+                <!-- <div class="valid-feedback">Fax looks good</div> -->
+                <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
+              </div>
+      
+              <!-- <div class="form-group">
+                          <label class="h4 form-control-label" for="input3">Website<abbr class="text-danger" title="This is required">*</abbr></label>
+                          <input type="url" placeholder="https://" class="form-control" name="i3" id="input3" required>
+                          <div class="valid-feedback">Website looks good.</div>
+                          <div class="invalid-feedback">Please enter a valid URL. This field is required.</div>
+                      </div> -->
+      
+              <div class="form-group">
+                <label for="input1">Address<abbr class="text-danger" title="This is required">*</abbr></label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="1234 Main St" required>
+                <div class="valid-feedback">Address looks good</div>
+                <div class="invalid-feedback">Please enter an Address. This field is required.
                 </div>
-
-                <div class="form-group">
-                    <label for="input1">Last Name<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="text" class="form-control" name="i1" id="input1" required>
-                    <div class="valid-feedback">Last name looks good</div>
-                    <div class="invalid-feedback">Please enter your last name. This field is required</div>
+              </div>
+              <div class="form-group">
+                <label for="input1">Address 2<abbr class="text-danger" title="This is required">*</abbr></label>
+                <input type="text" class="form-control" name="i1" id="input1" placeholder="Apartment, studio, or floor"
+                  required>
+                <div class="valid-feedback">Address looks good</div>
+                <div class="invalid-feedback">Please enter an Address. This field is required.
                 </div>
-
-                <div class="form-group">
-                    <label for="input1">Company</label>
-                    <input type="text" class="form-control" name="i1" id="input1">
-                    <!-- <div class="valid-feedback">Company looks good</div> -->
-                    <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="input1">City<abbr class="text-danger" title="This is required">*</abbr></label>
+                  <select id="input1" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>City 1</option>
+                    <option>City 2</option>
+                    <option>City 3</option>
+                    <option>City 4</option>
+                  </select>
                 </div>
-
-                <!-- <div class="form-group">
-                    <label for="input1">TelePhone<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="tel" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-                        class="form-control" name="i1" id="input1" required>
-                    <div class="valid-feedback">Telephone Number # looks good</div>
-                    <div class="invalid-feedback">Please enter a Telephone # like 123-456-7890. This field is required.
-                    </div>
-                </div> -->
-
-                <div class="form-group">
-                    <label for="input1">Telephone<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="text" class="form-control" name="i1" id="input1" required>
-                    <div class="valid-feedback">Telephone Number looks good</div>
-                    <div class="invalid-feedback">Please enter your Telephone Number. This field is required</div>
+                <div class="form-group col-md-4">
+                  <label for="input1">State</label>
+                  <select id="input1" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>State 1</option>
+                    <option>State 2</option>
+                    <option>State 3</option>
+                    <option>State 4</option>
+                  </select>
                 </div>
-
-                <div class="form-group">
-                    <label for="input1">Fax</label>
-                    <input type="text" class="form-control" name="i1" id="input1">
-                    <!-- <div class="valid-feedback">Fax looks good</div> -->
-                    <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
+                <div class="form-group col-md-2">
+                  <label for="input1">Zip</label>
+                  <input type="text" class="form-control" name="i1" id="input1" placeholder="12345">
                 </div>
-
-                <!-- <div class="form-group">
-                    <label class="h4 form-control-label" for="input3">Website<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="url" placeholder="https://" class="form-control" name="i3" id="input3" required>
-                    <div class="valid-feedback">Website looks good.</div>
-                    <div class="invalid-feedback">Please enter a valid URL. This field is required.</div>
-                </div> -->
-
-                <div class="form-group">
-                    <label for="input1">Address<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="text" class="form-control" name="i1" id="input1" placeholder="1234 Main St" required>
-                    <div class="valid-feedback">Address looks good</div>
-                    <div class="invalid-feedback">Please enter an Address. This field is required.
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="input1">Address 2<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="text" class="form-control" name="i1" id="input1"
-                        placeholder="Apartment, studio, or floor" required>
-                    <div class="valid-feedback">Address looks good</div>
-                    <div class="invalid-feedback">Please enter an Address. This field is required.
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="input1">City<abbr class="text-danger" title="This is required">*</abbr></label>
-                        <input type="text" class="form-control" name="i1" id="input1" required>
-                        <div class="valid-feedback">City looks good</div>
-                        <div class="invalid-feedback">Please enter a City. This field is required.
-                        </div>
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="input1">State</label>
-                        <select id="input1" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <label for="input1">Zip</label>
-                        <input type="text" class="form-control" name="i1" id="input1">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="input1">Country</label>
-                    <select id="input1" class="form-control" requird>
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
+              </div>
+      
+              <div class="form-group">
+                <label for="input1">Country</label>
+                <select id="input1" class="form-control" requird>
+                  <option selected>Choose...</option>
+                  <option>Country 1</option>
+                  <option>Country 2</option>
+                  <option>Country 3</option>
+                  <option>Country 4</option>
+                </select>
+              </div>
 
 
 
