@@ -12,20 +12,20 @@ var saladDIV= document.getElementById("saladDIV");
 var FRUIT=[
     {name: 'Apple',price:1},
     {name: 'Orange',price:1},
-    {name: 'Cherry',price:1},
-    {name: 'Strawberry',price:1},
-    {name: 'Kiwi',price:1},
-    {name: 'Banana',price:1},
+    {name: 'Pomegranape',price:1},
+    {name: 'Grapes',price:1},
+    {name: 'Pineapple',price:1},
+    {name: 'Woodapple',price:1},
 ];
 var JUICE=[
-    {name:'Juice #1',price:10},
-    {name:'Juice #2',price:11},
-    {name:'Juice #3',price:12},
+    {name:'Kist Nectar',price:10},
+    {name:'Apple Juice',price:11},
+    {name:'Kist Cordial',price:12},
 ];
 var SALAD=[
-    {name:'Salad #1',price:11},
-    {name:'Salad #2',price:12},
-    {name:'Salad #3',price:15},
+    {name:'Sunsilk',price:11},
+    {name:'Dove',price:12},
+    {name:'Dandex',price:15},
 ];
 // HTML
 function HTMLfruitProduct(con){
