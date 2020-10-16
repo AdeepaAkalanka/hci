@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 
 <head>
   <meta charset="UTF-8">
@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="./css/carousel.css">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <title>Edit Billing Address Information</title>
+  <title>Grocerypal</title>
 </head>
 
-<body>
+<body onload="render()">
   <header class="fixed-top">
     <div class="row bg-white">
       <div class="col-md-4 float-left">
@@ -38,8 +38,8 @@
     <nav class="navbar navbar-expand-md navbar-dark  text-white" style="background: #f5bd04">
 
       <!-- <a class="text-white navbar-brand" href="./mainpage.html">
-                <i class="fab fa-pagelines animate flash"></i> Groserypal
-            </a> -->
+              <i class="fab fa-pagelines animate flash"></i> Groserypal
+          </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabarCollapse"
         aria-controls="navbarColapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"> </span>
@@ -63,33 +63,33 @@
               <a class="dropdown-item" href="./dashboard.html">Account Dashboard</a>
               <a class="dropdown-item" href="./form.html">Edit Account</a>
               <a class="dropdown-item" href="./form2.html">Edit address</a>
-              <a class="dropdown-item" href="Gayani/Orderspage.html">My Orders</a>
-              <a class="dropdown-item" href="prabhashi/myProductReviews.html">My Product Reviews</a>
-              <a class="dropdown-item" href="prabhashi/myTags.html">My Tags</a>
-              <a class="dropdown-item" href="Gayani/Wishlist.html">My Wishlist</a>
+              <a class="dropdown-item" href="">My Orders</a>
+              <a class="dropdown-item" href="">My Product Reviews</a>
+              <a class="dropdown-item" href="">My Tags</a>
+              <a class="dropdown-item" href="">My Wishlist</a>
               <a class="dropdown-item" href="newsletter.html">Newsletter Subcriptions</a>
             </div>
           </li>
           <!-- <li class="nav-item active">#salad
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Fruits</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#juice">Juices</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Salads</a>
-                    </li> -->
+                      <a href="./index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Fruits</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#juice">Juices</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Salads</a>
+                  </li> -->
           <li class="nav-item active">
-            <a class="nav-link" href="vihanga/delivery_page.html">Delivery Grid</a>
+            <a class="nav-link" href="">Delivery Grid</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="vihanga/promotion_page.html">Shopping Wasi</a>
+            <a class="nav-link" href="">Shopping Wasi</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="prabhashi/quickShopping.html">Quick Shopping</a>
+            <a class="nav-link" href="">Quick Shopping</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -101,9 +101,9 @@
             <i class="far fa-user"></i> Logout
           </a>
           <!-- <a style="cursor:pointer" class="nav-link text-white" data-toggle="modal"
-                        data-target="#ModalCenter">
-                        <i class="far fa-user"></i> Logout
-                    </a> -->
+                      data-target="#ModalCenter">
+                      <i class="far fa-user"></i> Logout
+                  </a> -->
         </form>
       </div>
 
@@ -113,148 +113,39 @@
   <br>
   <br>
   <br>
+  <br>
+  <br>
 
 
-  <div class="container my-5">
+  <div class="container mt-3">
+    <main role="main">
+      <div class="row">
+        <div class="col">
+          <div class="table-responsive-sm">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Product</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody id="table">
 
-    <h3>Edit Billing Address Information</h3>
-    <p>Billing Address Information </a></p>
-
-
-    <hr>
-
-    <div class="card bg-light">
-      <form class="card-body" novalidate="" action="" method="" id="bootstrapForm">
-
-        <div class="form-group">
-          <label for="input1">First Name<abbr class="text-danger" title="This is required">*</abbr></label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="Alex" required>
-          <div class="valid-feedback">First name looks good</div>
-          <div class="invalid-feedback">Please enter your first name. This field is required</div>
-        </div>
-
-        <div class="form-group">
-          <label for="input1">Last Name<abbr class="text-danger" title="This is required">*</abbr></label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="Hunter" required>
-          <div class="valid-feedback">Last name looks good</div>
-          <div class="invalid-feedback">Please enter your last name. This field is required</div>
-        </div>
-
-        <div class="form-group">
-          <label for="input1">Company</label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="Abc(Pvt)Ltd">
-          <!-- <div class="valid-feedback">Company looks good</div> -->
-          <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
-        </div>
-
-        <!-- <div class="form-group">
-                    <label for="input1">TelePhone<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="tel" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-                        class="form-control" name="i1" id="input1" required>
-                    <div class="valid-feedback">Telephone Number # looks good</div>
-                    <div class="invalid-feedback">Please enter a Telephone # like 123-456-7890. This field is required.
-                    </div>
-                </div> -->
-
-        <div class="form-group">
-          <label for="input1">Telephone<abbr class="text-danger" title="This is required">*</abbr></label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="eg :- 0777123456" required>
-          <div class="valid-feedback">Telephone Number looks good</div>
-          <div class="invalid-feedback">Please enter your Telephone Number. This field is required</div>
-        </div>
-
-        <div class="form-group">
-          <label for="input1">Fax</label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="eg :- 123456789">
-          <!-- <div class="valid-feedback">Fax looks good</div> -->
-          <!-- <div class="invalid-feedback">Please enter your Company. This field is required</div> -->
-        </div>
-
-        <!-- <div class="form-group">
-                    <label class="h4 form-control-label" for="input3">Website<abbr class="text-danger" title="This is required">*</abbr></label>
-                    <input type="url" placeholder="https://" class="form-control" name="i3" id="input3" required>
-                    <div class="valid-feedback">Website looks good.</div>
-                    <div class="invalid-feedback">Please enter a valid URL. This field is required.</div>
-                </div> -->
-
-        <div class="form-group">
-          <label for="input1">Address<abbr class="text-danger" title="This is required">*</abbr></label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="1234 Main St" required>
-          <div class="valid-feedback">Address looks good</div>
-          <div class="invalid-feedback">Please enter an Address. This field is required.
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="form-group">
-          <label for="input1">Address 2<abbr class="text-danger" title="This is required">*</abbr></label>
-          <input type="text" class="form-control" name="i1" id="input1" placeholder="Apartment, studio, or floor"
-            required>
-          <div class="valid-feedback">Address looks good</div>
-          <div class="invalid-feedback">Please enter an Address. This field is required.
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="input1">City<abbr class="text-danger" title="This is required">*</abbr></label>
-            <select id="input1" class="form-control">
-              <option selected>Choose...</option>
-              <option>City 1</option>
-              <option>City 2</option>
-              <option>City 3</option>
-              <option>City 4</option>
-            </select>
-          </div>
-          <div class="form-group col-md-4">
-            <label for="input1">State</label>
-            <select id="input1" class="form-control">
-              <option selected>Choose...</option>
-              <option>State 1</option>
-              <option>State 2</option>
-              <option>State 3</option>
-              <option>State 4</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="input1">Zip</label>
-            <input type="text" class="form-control" name="i1" id="input1" placeholder="12345">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="input1">Country</label>
-          <select id="input1" class="form-control" requird>
-            <option selected>Choose...</option>
-            <option>Country 1</option>
-            <option>Country 2</option>
-            <option>Country 3</option>
-            <option>Country 4</option>
-          </select>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="float-left">
-              <button type="submit" class="btn btn-primary">Send Form</button>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="float-right">
-              <a href="form3.html">Edit Shipping Address Information</a>
-            </div>
-          </div>
-
-        </div>
-
-      </form>
-
-
-    </div>
-    <!-- /.card -->
-
+      </div>
+      <hr class="featurette-divider">
+    </main>
   </div>
-  <!-- /.container -->
 
+  <!-- END MODAL -->
+  <!-- <div class="container"> -->
+  <!-- FOOTER -->
   <!-- Footer -->
   <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #333333;">
     <!-- Footer Links -->
@@ -292,10 +183,10 @@
           </div>
 
           <!-- <ul class="list-unstyled">
-          <li>
-            <a href="Onecatpage.html"><img class="card-img-top" src="images/pepsi1.jpg" style="width:40%">&nbsp;Lime Pepsi</a>
-          </li>
-        </ul> -->
+            <li>
+              <a href="Onecatpage.html"><img class="card-img-top" src="images/pepsi1.jpg" style="width:40%">&nbsp;Lime Pepsi</a>
+            </li>
+          </ul> -->
 
         </div>
         <!-- Grid column -->
@@ -321,19 +212,19 @@
           </a>
 
           <!-- <ul class="list-unstyled">
-          <li>
-            <a href="#!">My Account</a>
-          </li>
-          <li>
-            <a href="#!">Terms Of Use</a>
-          </li>
-          <li>
-            <a href="#!">About Us</a>
-          </li>
-          <li>
-            <a href="#!">Contact Us</a>
-          </li>
-        </ul> -->
+            <li>
+              <a href="#!">My Account</a>
+            </li>
+            <li>
+              <a href="#!">Terms Of Use</a>
+            </li>
+            <li>
+              <a href="#!">About Us</a>
+            </li>
+            <li>
+              <a href="#!">Contact Us</a>
+            </li>
+          </ul> -->
 
         </div>
         <!-- Grid column -->
@@ -410,9 +301,7 @@
 
   </footer>
   <!-- Footer -->
-
-
-
+  <!-- </div> -->
   <!-- javascript -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -422,13 +311,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.all.min.js"></script>
   <script src="./js/wow.js"></script>
   <script src="./js/cart.js"></script>
-  <!-- <script src="./js/main.js"></script> -->
-  <script src="./js/form.js"></script>
-
-
   <!--end javascript  -->
 </body>
 
